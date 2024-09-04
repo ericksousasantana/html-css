@@ -1,0 +1,132 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: android-;
+    src: url(__MACOSX/fontes/.idroid.otf);
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    align-items: center;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 16px 10px;
+}
+h1{
+    font-family: android, Arial, Helvetica, sans-serif;
+    margin: 16px 10px;
+    color: #13713d;
+}
+h2{
+    background-image: linear-gradient( to right, #acfacf, #fff);
+    font-family: android, Arial, Helvetica, sans-serif;
+    margin: 16px 10px;
+    padding-left: 10px;
+}
+header{
+    background-image: linear-gradient( to bottom, #3cd27f, #2c8e58,  #1e663e 85% );
+    box-shadow: 0px 1px 5px 0px;
+}
+footer{
+    background-color: #1e663e;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+main{
+    background-color: white;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 1px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.558);
+}
+a{
+    color: #13713d;
+    text-decoration: none;
+}
+footer > p{
+    margin: 0px;
+}
+header > h1{
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header > p{
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.79);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+header > nav > ul{
+    display: inline-flex;
+    list-style: none;
+    margin: 0px;
+    padding: 20px 0px 5px 15px;
+    text-align: left;
+}
+header > nav > ul > a{
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+main > img{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+}
+.video{
+    align-content: center;
+    background-color: #1e663e;
+    margin: 15px auto;
+    padding: 15px 25px;
+}
+iframe{
+    max-width: max-content;
+    min-width: 100%;
+    min-height: 100%;
+}
+.aprender-titulo{
+    background-color: #2ea664;
+    color: #fff;
+    padding: 10px;
+    margin: -5px;
+    border-radius: 15px 15px 0px 0px;
+}
+.aprender-titulo > p{
+    margin: 0px;
+    font-weight: bold;
+}
+
+.aprender{
+    background-color: #acfacf;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #0000005c;
+}
+
+ul{
+    display: inline-block;
+}
+ul > li{
+    text-decoration: underline;
+}
+
+
+
