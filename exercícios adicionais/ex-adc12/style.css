@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 2px dashed black;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    border: 2px dashed black;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px 15px 2px 15px;
+    color: rgb(255, 255, 255);
+    border: 2px dashed black;
+    padding: 12px 35px;
+}
+nav a:hover{
+    background-color: rgb(255, 206, 206);
+}
