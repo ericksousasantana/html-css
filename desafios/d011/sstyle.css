@@ -1,0 +1,24 @@
+body{
+    height: 97.7vh;
+    background: rgb(0, 0, 32) url('imagens/espaco.jpg') center no-repeat;
+    background-size: cover;
+}
+
+#container{
+    position: relative;
+    height: 665px;
+    align-items: center;
+}
+
+#conteudo{
+    max-width: 500px;
+    max-height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    max-height: 500px;
+}
