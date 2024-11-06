@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        table{
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 800px;
+            position: relative;
+        }
+        div#container > table > thead > tr > th{
+            position: sticky;
+            top: 0;
+        }
+        thead, tfoot{
+            background-color: rgb(30, 30, 30);
+            color: white;
+            height: 50px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(74, 117, 74);
+            color: white;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de tabela responsiva</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet explicabo suscipit omnis corrupti ducimus, necessitatibus quas animi vitae. Cum deserunt cupiditate iste accusamus, dolores facilis eligendi magni reprehenderit corrupti.</p>
+
+    <div id="container">
+        <table>
+            <caption>
+                Tabela sobre produtos responsivos
+            </caption>
+            <thead>
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Ago</th>
+                <th>Set</th>
+                <th>Out</th>
+                <th>Nov</th>
+                <th>Dez</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="first">A</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th class="first">B</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th class="first">C</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th class="first">D</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th class="first">E</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th class="first">F</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th class="first">G</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="12">
+                        População total
+                    </th>
+                    <td>
+                        <strong>212 583 720</strong>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quis quos qui debitis minima totam! Molestias, quos eveniet fuga autem quas ut voluptatum nobis blanditiis praesentium odio adipisci rerum perspiciatis!
+        Voluptatibus neque itaque consequuntur architecto eaque nobis, nesciunt fugiat labore modi quo eveniet beatae eius aspernatur similique, vitae omnis odio ut ullam. Blanditiis minima, atque aut commodi molestias laborum omnis.
+        Tempora voluptatum laborum, quae sed dolores aut magnam. Consequatur, harum quidem odit aliquid neque maxime, eaque quo nesciunt explicabo aspernatur quod vitae deleniti voluptatibus at accusantium obcaecati necessitatibus unde fugit.
+        Officia ipsum reprehenderit fugit, atque pariatur eveniet maxime possimus ut corrupti quibusdam vero, perspiciatis architecto quasi cum enim obcaecati! Dignissimos praesentium quis fuga consectetur reiciendis, ducimus perspiciatis corporis sapiente! Similique.
+        Provident omnis eum quia quos corrupti cum pariatur facere dicta, perferendis inventore sit explicabo harum saepe earum recusandae maiores ad suscipit sint hic eius accusamus natus tempora? Quos, quasi sed.
+        Culpa, molestias. Pariatur commodi quae minus velit omnis alias molestiae, iusto in similique. Excepturi inventore aliquid dignissimos itaque quibusdam dolor rem, rerum voluptates modi laborum. Pariatur, iusto. Atque, dolorum laborum?
+        Placeat quisquam tempora nihil natus aliquid alias quae soluta cum! Earum vitae qui dignissimos distinctio non molestias repellendus repellat, quibusdam, voluptas optio ad, consectetur aspernatur corporis ipsum. Officiis, enim necessitatibus!
+        Praesentium ipsa vitae qui repellendus, id debitis reiciendis facere nihil. Aliquid, impedit id odit reprehenderit nam quia delectus asperiores laudantium deserunt aliquam obcaecati, natus porro officia ullam excepturi. Veniam, tempora?
+        Repellat nam autem fugiat harum molestiae unde neque? Repudiandae veniam a labore! Deleniti, atque vel odit libero doloremque illo harum eius aperiam reiciendis modi, architecto illum odio, rerum dicta numquam.
+        Beatae quaerat placeat ad repellendus officiis id. A id, blanditiis corporis animi fuga doloribus, adipisci in tempore sint ullam rem recusandae consequuntur nulla voluptates quasi, velit impedit eaque quia eveniet.
+        Aspernatur doloremque consequatur debitis adipisci ipsam blanditiis temporibus reprehenderit molestias accusantium maiores labore eum repudiandae, earum omnis consectetur facilis eveniet laborum tempore dolorum dolor! Omnis reiciendis provident necessitatibus maxime laudantium?
+        Expedita laborum nostrum accusamus possimus ratione aliquid, quam accusantium? Ex molestiae consequuntur dignissimos, dolor impedit dolore dicta provident quia natus recusandae, pariatur odio quaerat laborum omnis animi ipsum. Ipsum, voluptatibus.
+    </p>
+    
+</body>
+</html>

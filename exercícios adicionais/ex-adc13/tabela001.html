@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela responsiva e sticky</title>
+    <style>
+        table{
+            width: 800px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(255, 0, 0);
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+        <table>
+            <caption>
+                Filmes favoritos
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Grupo</th>
+                    <th scope="col">Nomes</th>
+                    <th colspan="3">Filmes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">
+                        Mulheres
+                    </th>
+                    <td>
+                        Ana Maria dos Santos
+                    </td>
+                    <td>
+                        Alien
+                    </td>
+                    <td>
+                        Rambo
+                    </td>
+                    <td>
+                        Vingadores
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Beatriz Souza
+                    </td>
+                    <td>
+                        Beatriz Souza
+                    </td>
+                    <td>
+                        Inception
+                    </td>
+                    <td>
+                        Batman
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cláudia Melo
+                    </td>
+                    <td>
+                        Oblivion
+                    </td>
+                    <td>
+                        Matrix
+                    </td>
+                    <td>
+                        Big Hero
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">
+                        Homens
+                    </th>
+                    <td>
+                        Breno Mendonça
+                    </td>
+                    <td>
+                        Intocáveis
+                    </td>
+                    <td>
+                        Amnésia
+                    </td>
+                    <td>
+                        Gladiador
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daniel Lourenço
+                    </td>
+                    <td>
+                        Wall-E
+                    </td>
+                    <td>
+                        Oldboy
+                    </td>
+                    <td>
+                        Dangal
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fabiano Mota
+                    </td>
+                    <td>
+                        Star Wars 5
+                    </td>
+                    <td>
+                        Taxi Driver
+                    </td>
+                    <td>
+                        Toy Story
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">
+                        Mulheres
+                    </th>
+                    <td>
+                        Ana Maria dos Santos
+                    </td>
+                    <td>
+                        Alien
+                    </td>
+                    <td>
+                        Rambo
+                    </td>
+                    <td>
+                        Vingadores
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Beatriz Souza
+                    </td>
+                    <td>
+                        Beatriz Souza
+                    </td>
+                    <td>
+                        Inception
+                    </td>
+                    <td>
+                        Batman
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cláudia Melo
+                    </td>
+                    <td>
+                        Oblivion
+                    </td>
+                    <td>
+                        Matrix
+                    </td>
+                    <td>
+                        Big Hero
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">
+                        Homens
+                    </th>
+                    <td>
+                        Breno Mendonça
+                    </td>
+                    <td>
+                        Intocáveis
+                    </td>
+                    <td>
+                        Amnésia
+                    </td>
+                    <td>
+                        Gladiador
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daniel Lourenço
+                    </td>
+                    <td>
+                        Wall-E
+                    </td>
+                    <td>
+                        Oldboy
+                    </td>
+                    <td>
+                        Dangal
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fabiano Mota
+                    </td>
+                    <td>
+                        Star Wars 5
+                    </td>
+                    <td>
+                        Taxi Driver
+                    </td>
+                    <td>
+                        Toy Story
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">
+                        Mulheres
+                    </th>
+                    <td>
+                        Ana Maria dos Santos
+                    </td>
+                    <td>
+                        Alien
+                    </td>
+                    <td>
+                        Rambo
+                    </td>
+                    <td>
+                        Vingadores
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Beatriz Souza
+                    </td>
+                    <td>
+                        Beatriz Souza
+                    </td>
+                    <td>
+                        Inception
+                    </td>
+                    <td>
+                        Batman
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cláudia Melo
+                    </td>
+                    <td>
+                        Oblivion
+                    </td>
+                    <td>
+                        Matrix
+                    </td>
+                    <td>
+                        Big Hero
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">
+                        Homens
+                    </th>
+                    <td>
+                        Breno Mendonça
+                    </td>
+                    <td>
+                        Intocáveis
+                    </td>
+                    <td>
+                        Amnésia
+                    </td>
+                    <td>
+                        Gladiador
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daniel Lourenço
+                    </td>
+                    <td>
+                        Wall-E
+                    </td>
+                    <td>
+                        Oldboy
+                    </td>
+                    <td>
+                        Dangal
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fabiano Mota
+                    </td>
+                    <td>
+                        Star Wars 5
+                    </td>
+                    <td>
+                        Taxi Driver
+                    </td>
+                    <td>
+                        Toy Story
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4" scope="row">total</th>
+                    <td>Bom gosto</td>
+                </tr>
+            </tfoot>
+        </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet fugit quo minima molestiae saepe commodi? Repellat accusantium quidem et quod porro optio impedit beatae, perferendis veritatis minima. Numquam, veniam.
+    Voluptatibus, omnis! Quaerat magni sed modi aperiam! Necessitatibus veritatis et, quasi, ipsa sapiente quae quia provident vitae sint distinctio voluptates sed facere aut. Iusto deleniti excepturi eos temporibus magni! Tempore.
+    Earum obcaecati iusto veniam harum iure rerum repudiandae odit quos. Distinctio fugiat eius officia atque dolorum perferendis vel consequatur quos iusto inventore rem ex facilis sed, eveniet repellat rerum est!
+    Pariatur exercitationem perspiciatis sunt eveniet doloremque est nulla modi. Eius aliquam, repudiandae incidunt numquam neque enim fuga, obcaecati esse, explicabo nostrum repellat autem dolor at exercitationem? Sint aut consectetur possimus?
+    Quasi laudantium quisquam esse necessitatibus quaerat voluptates ratione distinctio recusandae, rerum dolore, exercitationem ipsam repudiandae nobis temporibus praesentium fugiat eveniet error minus velit debitis dicta. Ducimus nemo molestias at adipisci.
+    Voluptas magnam deleniti similique non accusamus tempore nihil reiciendis. Quo minima veniam perferendis vero, porro, sunt aliquid nihil eos mollitia voluptatum ea corrupti amet laudantium esse? Dolor sit exercitationem eaque!
+    Voluptatem voluptas molestiae deleniti, at quisquam aperiam odit? Vero quod cumque asperiores sequi ullam eius ea accusantium voluptatem molestiae. Impedit ipsa maxime facilis officia deserunt quo harum error cumque similique.
+    Fugit, sint aut vitae rerum obcaecati vero similique quos iusto tempore sapiente placeat? Amet expedita incidunt rerum, hic quos consequatur quia sit corrupti error quae inventore, a perspiciatis enim nulla.
+    Enim, perferendis harum dicta laborum fugit illo dolorem in maiores dignissimos! Atque labore error eos nemo voluptates. Placeat dolores eaque deleniti amet officia, perferendis reiciendis, enim quo rem hic consequuntur.
+    Quisquam accusamus maxime alias eos? Mollitia, iusto dolor. Qui repellendus, dolor aliquid similique quidem enim earum voluptatibus fugiat corporis est omnis delectus doloribus, blanditiis odit nemo fuga maiores, assumenda temporibus.
+    Repudiandae quibusdam tenetur rerum excepturi eveniet harum quasi architecto perspiciatis voluptatibus aut laborum accusamus, neque omnis eaque dolorum fuga eius blanditiis impedit, et alias exercitationem? Iure modi laudantium voluptatum assumenda?
+    Ad distinctio sint veritatis ducimus cum! Sed nisi quidem dolorem magnam autem voluptatem unde debitis alias nostrum repudiandae, sunt exercitationem! Temporibus porro ducimus nam a aspernatur molestias dolorum dicta laboriosam.
+    Itaque nobis nemo fugit saepe nesciunt ea facilis officia, quaerat hic repudiandae sequi quae, odit maxime quisquam, quos dolore vitae qui expedita eveniet? Totam perspiciatis tempore optio sunt nostrum cupiditate.
+    Totam cum fuga, sapiente ratione culpa fugiat, unde dolorum neque vero laudantium facilis corporis harum obcaecati officia ab animi ducimus placeat a odio? Beatae sapiente ducimus, eum cum consequuntur asperiores.
+    Dicta facilis sequi quo vero, vel deserunt rerum rem! Omnis vero architecto laboriosam neque minus, quam itaque consequuntur accusamus, fugiat, laudantium aliquid iste repellat animi eum veniam natus autem eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iure, laborum magnam sed dolore delectus et consectetur omnis vero vel sit deleniti cum nobis quidem distinctio amet, ipsam est quia.
+    Reprehenderit, nemo cumque sed eos dolor, voluptatibus vitae rerum dolorem facere officiis, modi architecto consequuntur corporis. Quibusdam, unde. Eveniet temporibus error laborum omnis sapiente voluptates voluptatibus est provident, debitis quos?
+    Similique quaerat, dolorum qui enim rerum omnis ipsum ea eligendi quia minus. Sunt, asperiores at? Enim, sint quaerat sed, fugiat ad at consequatur doloremque, ipsum veritatis unde quisquam nobis magnam!
+    In dolorem suscipit dicta eaque reprehenderit tenetur incidunt a ut nam enim laborum rerum voluptate quibusdam maiores, odit vel et voluptatum cum? Quasi soluta iusto, adipisci mollitia consectetur magni placeat.</p>
+</body> 
+</html>
