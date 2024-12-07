@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <h1>Atributos importantes para formulários</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iuse">Usuário:</label>
+            <input type="text" name="iuse" id="iuse" required maxlength="15" autocomplete="nickname">
+        </p>
+
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="Senha" id="isen"
+            required minlength="8" autocomplete="current-password">
+        </p>
+
+        <p>
+            <label for="iapel">Apelido</label>
+            <input type="text" name="apelido" id="iapel" autocomplete="nickname">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
