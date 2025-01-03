@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+/* Typical device breakpoints
+Pequenas telas: até 600px
+Celulares: de 600px até 768px
+Tabletes: 768 até 992px
+Desktops: 992 até 1200px
+Grandes telas: acima de 1200px
+*/
+
+/*
+Dispositivos móveis
+    360 × 640 px (Proporção 16:9, padrão para muitos smartphones Android)
+    375 × 667 px (Proporção 16:9, como o iPhone SE)
+    390 × 844 px (iPhone 14 Pro)
+    412 × 915 px (Padrão para smartphones maiores, como Galaxy S23)
+Tablets
+    768 × 1024 px (iPad padrão, proporção 4:3)
+    1280 × 800 px (Proporção 16:10, usada em tablets Android)
+    1668 × 2388 px (iPad Pro de 11 polegadas)
+Laptops
+    1366 × 768 px (Padrão HD em laptops mais básicos)
+    1920 × 1080 px (Full HD, comum em laptops de gama média)
+    2560 × 1600 px (MacBook Pro de 13 polegadas, proporção 16:10)
+    3840 × 2160 px (4K UHD, em modelos premium)
+Monitores e desktops
+    1920 × 1080 px (Full HD, proporção 16:9, a mais comum)
+    2560 × 1440 px (WQHD ou 2K, proporção 16:9)
+    3840 × 2160 px (4K UHD, proporção 16:9)
+    5120 × 2880 px (5K, usado em monitores profissionais)
+    7680 × 4320 px (8K UHD, ainda pouco comum)
+Televisores
+    1920 × 1080 px (Full HD)
+    3840 × 2160 px (4K UHD)
+    7680 × 4320 px (8K UHD)
+*/
+
+@media print{ /*IMPRESSÃO */
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid black;
+    }
+    main h1{
+        color: black;
+    }
+    main::after{
+        content: 'Esse arquivo foi impresso atravéz do site www.erickemvideo.com';
+    }
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #print{ display: block;}
+    #pc{ display: none;}
+    #tv{ display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    html{
+        background: url("../imagens/back-tablet.jpg")center center no-repeat;
+        background-size: cover;
+    }
+    main{
+        background-color: rgba(0, 255, 255, 0.699);
+    }
+    #phone{ display: none;}
+    #tablet{ display: block;}
+    #print{ display: none;}
+    #pc{ display: none;}
+    #tv{ display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    html{
+        background: url("../imagens/back-pc.jpg") center center no-repeat;
+        background-size: cover;
+    }
+    main{
+        background-color: rgba(0, 0, 0, 0.762);
+    }
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #print{ display: none;}
+    #pc{ display: block;}
+    #tv{ display: none;}
+}
+
+@media screen and (min-width: 1200px){
+    html{
+        background: url("../imagens/back-tv.jpg") center center no-repeat;
+        background-size: cover;
+    }
+    main{
+        background-color: rgba(10, 46, 46, 0.699);
+    }
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #print{ display: none;}
+    #pc{ display: none;}
+    #tv{ display: block;}
+}
