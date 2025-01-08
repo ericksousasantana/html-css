@@ -10,22 +10,58 @@ body{
 }
 
 header{
-    background-color: orangered;
+    background-color: #CA5042;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
 }
 header h1{
     text-align: center;
+    margin: 10px;
+}
+
+span#icon{
+    cursor: pointer;
+    background-color: beige;
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+span#icon:hover{
+    background-color: black;
+    color: beige;
+    transition: background-color .2s, color 2s;
+}
+
+menu{
+    display: none;
+}
+menu ul{
+    list-style: none;
+    text-align: center;
+}
+menu li{
+    background-color: #ad2a1b;
+    margin: 6px 0px;
+}
+menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+menu a:hover{
+    background-color: #ff8173;
+    color: black;
 }
 
 main{
-    background-color: brown;
-    padding: 20px;
+    padding: 15px;
 }
 
 article{
-    background-color: orangered;
-    max-width: 600px;
+    background-color: #CA5042;
+    max-width: 700px;
     margin: auto;
     padding: 20px;
     color: white;
