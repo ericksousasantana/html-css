@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxes Module</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        div.container{
+            background-color: lightsalmon;
+            height: 200px;
+
+            display: flex;
+            flex-flow: column-reverse wrap-reverse;
+
+        }
+
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Exemplo de wrap lore A</div>
+        <div class="item">Exemplo de wrap lore B</div>
+        <div class="item">Exemplo de wrap lore C</div>
+        <div class="item">Exemplo de wrap lore D</div>
+        <div class="item">Exemplo de wrap lore E</div>
+        <div class="item">Exemplo de wrap lore F</div>
+        <div class="item">Exemplo de wrap lore G</div>
+    </div>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>
