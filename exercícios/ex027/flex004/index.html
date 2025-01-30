@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxes Module</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        div.container{
+            background-color: lightsalmon;
+            height: 300px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+
+        section{
+            background-color: white;
+            margin: 100px 20px;
+            border-radius: 20px;
+            height: 300px;
+
+            display: flex;
+            gap: 10px;
+            flex-flow: row nowrap;
+            align-items: end;
+        }
+        section div{
+            border: 5px dashed black;
+            height: 150px;
+            width: 150px;
+            margin: 5px;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>
