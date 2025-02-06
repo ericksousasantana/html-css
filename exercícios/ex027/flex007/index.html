@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxes Module</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        div.container{
+            background-color: lightsalmon;
+
+            display: flex;
+        }
+
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        #i1{
+            order: -4;
+        }
+        #i2{
+            order: -3;
+        }
+        #i3{
+            order: -6;
+        }
+        #i4{
+            order: -7;
+        }
+        #i5{
+            order: -2;
+        }
+        #i6{
+            order: -1;
+        }
+        #i7{
+            order: -5;
+        }
+
+
+        section{
+            background-color: white;
+            margin: 100px 20px;
+            border-radius: 20px;
+
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        section div{
+            background-color: darkblue;
+            height: 150px;
+            width: 150px;
+            margin: 5px;
+            border-radius: 20px;
+
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+    </div>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>
