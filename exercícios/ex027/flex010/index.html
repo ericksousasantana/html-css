@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxes Module</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: blue;
+        }
+
+        div.container {
+            background-color: lightsalmon;
+
+            display: flex;
+        }
+
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+
+            flex-basis: 250px;
+        }
+        .a{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        .b{
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+        .c{
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item a">A</div>
+        <div class="item b">B</div>
+        <div class="item c">C</div>
+    </div>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+
+</html>
