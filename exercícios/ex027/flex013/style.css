@@ -21,9 +21,36 @@ body{
 header{
     background-color: beige;
     padding: 1rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
     h1{
         color: lightseagreen;
+        flex: 0 0 200px;
     }
+    nav{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+}
+
+header a{
+    background-color: lightgreen;
+    color: black;
+    padding: .8rem;
+    margin: 5px;
+    border-radius: .5rem;
+    text-decoration: none;
+    text-align: center;
+}
+header a:hover{
+    background-color: rgb(39, 63, 39);
+    color: lightgreen;
+    transition: .4s;
 }
 
 main{
